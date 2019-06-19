@@ -23,3 +23,8 @@
 		window.onorientationchange = function() {
 			document.body.scrollTop = 0;
 		}
+
+		<script>
+  var audio = document.getElementById("myaudio");
+  audio.volume = 0.008;
+</script>
