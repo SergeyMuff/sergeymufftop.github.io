@@ -26,5 +26,5 @@
 
 		<script>
   var audio = document.getElementById("myaudio");
-  audio.volume = 1;
+  audio.volume = 0.08;
 </script>
