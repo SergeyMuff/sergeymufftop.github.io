@@ -24,7 +24,8 @@
 			document.body.scrollTop = 0;
 		}
 
-		<script>
+
+<script>
   var audio = document.getElementById("myaudio");
-  audio.volume = 0.08;
+  audio.volume = 0.03;
 </script>
