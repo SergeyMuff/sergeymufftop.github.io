@@ -1,0 +1,91 @@
+
+
+<html>
+	<head>
+		<title>SergeyMuff</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">		
+		<script src="js/skel.min.js"></script>
+		<script src="js/init.js"></script>			
+		<script src="https://use.fontawesome.com/a5e30dd034.js"></script>
+		<link rel="stylesheet" href="css/style.css" >
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type='text/css'>
+		<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+	</head>
+    
+	<body class="loading">		
+		<div id="wrapper">
+			<video src="video/video3.mp4" autoplay="1" loop="" id="player">
+            
+			<source src="video/video3.mp4" type="video/mp4"><source src="video/video3.ogv" type="video/ogg"><source src="video/video3.webm" type="video/webm">
+             </video>     
+			<div id="overlay"></div>
+			<div id="main">				
+					<header id="header">					
+					<ul>					
+					<marquee aligt="center" scrollamount="50" width="540" style="width:540px;">&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;</marquee>
+					</ul>
+					Time:	
+                      <span id="doc_time">Time</span>					
+						<h1>SergeyMuff</h1>
+						<nav>
+							<ul>	
+                                <li><a href="https://vk.com/id298358882"  target="_blank" class="fa fa-vk"></a></li>	
+                                <li><a href="https://steamcommunity.com/id/Muff321535/"  target="_blank" class="fa fa-steam-square" aria-hidden="true"></a></li>	
+                            
+                                <li><a href="https://telegram.me/SergeyMuff"  target="_blank" class="fa fa-paper-plane" aria-hidden="true"></a></li>      																
+							</ul>
+							<ul>
+							<marquee aligt="center" scrollamount="50" direction="right" width="540" style="width:540px;">&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;&nbsp;&bull;</marquee>
+							</ul>		
+						</nav>
+					</header>				
+			</div>
+		</div>
+	</body>
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+function clock() {
+var d = new Date();
+var hours = d.getHours();
+var minutes = d.getMinutes();
+var seconds = d.getSeconds();
+
+
+if (hours <= 9) hours = "0" + hours;
+if (minutes <= 9) minutes = "0" + minutes;
+if (seconds <= 9) seconds = "0" + seconds;
+
+date_time = hours + ":" + minutes + ":" + seconds;
+if (document.layers) {
+ document.layers.doc_time.document.write(date_time);
+ document.layers.doc_time.document.close();
+}
+else document.getElementById("doc_time").innerHTML = date_time;
+ setTimeout("clock()", 1000);
+}
+</script>
+<script type="text/javascript">
+ clock();
+</script>
+<script>
+  var audio = document.getElementById("myaudio");
+  audio.volume = 0.06;
+</script>
+
+</html>
